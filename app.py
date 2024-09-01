@@ -12,7 +12,7 @@ app.secret_key = 'your_secret_key'  # Necesario para usar flash
 db_config = {
     'user': 'root',
     'password': '',
-    'host': 'localhost',
+    'host': 'edumor.mysql.pythonanywhere-services.com',
     'database': 'registros'
 }
 
@@ -117,5 +117,5 @@ def edit(id):
         flash('Ingrese todos los datos requeridos', 'error')
         return redirect(url_for('home'))
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001)
+# if __name__ == '__main__':
+   # app.run(debug=True, host='0.0.0.0', port=5001)
