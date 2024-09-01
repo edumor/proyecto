@@ -13,7 +13,7 @@ db_config = {
     'user': 'edumor',
     'password': 'Riva8055',
     'host': 'edumor.mysql.pythonanywhere-services.com',
-    'database': 'registros'
+    'database': 'edumor$default'
 }
 
 # Conexión a la base de datos
