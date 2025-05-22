@@ -11,7 +11,7 @@ app.secret_key = 'your_secret_key'  # Necesario para usar flash
 # Configuración de la base de datos
 db_config = {
     'user': 'edumor',
-    'password': 'Riva8055',
+    'password': '********',
     'host': 'edumor.mysql.pythonanywhere-services.com',
     'database': 'edumor$default'
 }
